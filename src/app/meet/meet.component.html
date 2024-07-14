@@ -1,0 +1,41 @@
+<border>
+
+  <div flex alignItems="center" justifyContent="center" height="100vh">
+    <div>
+      <img src="assets/qLogo.png" width="180px" />
+    </div>
+
+    <form flexDirection="column" justifyContent="center" alignItems="center">
+      <div flex width="300px">
+
+        <div flex flex="1">
+
+          <input input type="text" placeholder="Enter your phonenumber">
+          <button button (click)="login()" routerLink="/secondPage">Login</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+
+</border>
+
+
+
+
+<!-- 
+- <div class="session"> 
+    <div class="login">
+      <img class="logo" src="assets/qLogo.png" alt="Qknow Logo" />
+      <form>
+        <div class="input-box">
+          <input id="phone" type="tel" placeholder="Enter your phone number" [(ngModel)]="phoneNumber"
+            name="phoneNumber" />
+        </div>
+        <button type="button" (click)="login()" routerLink="/secondPage">
+          Login
+
+        </button>
+      </form>
+    </div>
+  </div>  -->

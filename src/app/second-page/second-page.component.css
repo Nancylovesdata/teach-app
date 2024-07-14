@@ -1,0 +1,291 @@
+.outer-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 16px;
+    padding: 6px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo {
+    flex: 1;
+}
+
+
+.user-details {
+    flex-direction: column;
+}
+
+
+.user-profile {
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.level {
+    margin-left: -6px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+}
+
+.JS {
+    background-color: #1b4d7a;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+
+
+.schedule {
+    margin-top: 16px;
+    padding-left: 18px;
+}
+
+
+
+.info {
+    margin-top: -20px;
+    color: #2a5273;
+    font-size: small;
+}
+
+.your-schedule {
+    font-size: 24px;
+    font-weight: bold;
+    color: #34b6ff;
+    margin-top: -24px;
+}
+
+
+.schedule-info {
+    display: flex;
+    flex: 1;
+    margin-top: 0px;
+    padding:16px;
+}
+
+.details {
+    flex: 0.35;
+    margin-right: 12px;
+    margin-top: 0px;
+
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 16px;
+    background-color: #f5f5f5;
+    padding: 2px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.information {
+    display: flex;
+    align-items: center;
+   
+}
+
+.booking{
+    display: flex;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.month,
+.day {
+    font-size: 14px;
+    color: black;
+}
+
+.day-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+
+.jessica-details {
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.jessica {
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 1rem;
+    width: 200px;
+}
+
+.jessica-code {
+    margin-top: 4px;
+}
+
+
+
+/* .both-time{
+                        flex-direction: row;
+                        display: flex;
+                        margin-top: 4px;
+                    }
+                    
+                    .time{
+                        border-radius:2px ;
+                    background-color: white;
+                    
+                    }
+                    
+                    .hours{
+                        padding-left: 20px;
+                        border-radius:1px ;
+                        background-color: white;
+                    }
+                     */
+
+.both-time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.time {
+    margin-right: 4px;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    padding: 0 4px;
+}
+
+.hours {
+    margin-left: 4px;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    padding: 0 4px;
+}
+
+
+
+
+.todo {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.join,
+.cancel {
+    color: #2a5273;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 8px;
+    align-self: flex-end;
+}
+
+&:hover {
+    text-decoration: underline;
+}
+
+
+
+.vertical-line {
+    width: 2px;
+    background-color: #f5f5f5;
+    margin: 0 12px;
+}
+
+.online-meeting {
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.video {
+    padding: 16px;
+    /* background-color: #f5f5f5; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: url('/assets/video.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+
+}
+
+
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a5273;
+    margin-bottom: 12px;
+}
+
+
+.meeting-time {
+    margin-top: 4px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meeting-heading {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2a5273;
+}
+
+.meeting-adjust {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #2a5273;
+}

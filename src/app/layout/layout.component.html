@@ -1,0 +1,33 @@
+<!-- <div class="layout-container">
+    <div class="layout-content">
+      <ng-content></ng-content>
+    </div>
+  </div> -->
+
+  <div
+  [ngStyle]="{
+    'background-color': '#1B4D7A',
+    'height': '100vh',
+    'overflow-x': 'hidden',
+    'overflow-y': 'hidden',
+    'display': 'flex',
+    'justify-content': 'center',
+    'align-items': 'center'
+  }"
+>
+  <div
+    [ngStyle]="{
+      'height': 'calc(100% - 32px)',
+      'width': 'calc(100% - 32px)',
+      'background-color': 'white',
+      'border-radius': '16px',
+      'display': 'flex',
+      'flex-direction': 'column',
+      'justify-content': 'center',
+      'align-items': 'center'
+}"
+  >
+    <ng-content></ng-content>
+  </div>
+</div>
+
